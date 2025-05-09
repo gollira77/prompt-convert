@@ -3,4 +3,8 @@
 const tasaCambio = 1300;
 let historial = [];
 
+// Creación de la funcion que pasas los pesos a dolares 
+function convertirDivisa(pesos) {
+    return pesos / tasaCambio;
+}
 
